@@ -1,0 +1,10 @@
+:root { --papier: #F3EAD8; --encre: #16141C; --encre-2: #4A4452; --cobalt: #2347E6; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--papier); color: var(--encre); font: 16px/1.6 system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 28px 0 6px; }
+p, li { color: var(--encre); }
+.date { color: var(--encre-2); margin: 0 0 24px; }
+a { color: var(--cobalt); }
+nav { margin-bottom: 24px; font-size: 14px; }
